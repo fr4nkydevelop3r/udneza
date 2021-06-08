@@ -14,6 +14,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-create-client-paths`,
       options: { prefixes: [`/detalles-carrera/*`] },
-    }
+    },
+    `gatsby-plugin-netlify`
   ]
 };
