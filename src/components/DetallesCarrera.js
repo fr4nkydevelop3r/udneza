@@ -1,7 +1,6 @@
 import React,{useState, useContext} from "react";
 import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
 import 'react-tabs/style/react-tabs.css';
-//import { Document, Page } from 'react-pdf/dist/esm/entry.webpack';
 
 
 import courseD1 from "../assets/images/course-d-1.jpg";
@@ -80,31 +79,11 @@ const DetallesCarrera = ({carrera}) => {
               </TabPanel>
             
               <TabPanel>
-               {/* <Document
-                  file={career.pdf}
-                  onLoadSuccess={onDocumentLoadSuccess}
-                >
-                  <Page pageNumber={pageNumber} />
-                </Document>
-                <div>
-                  <p>
-                    Page {pageNumber || (numPages ? 1 : '--')} of {numPages || '--'}
-                  </p>
-                  <button
-                    type="button"
-                    disabled={pageNumber <= 1}
-                    onClick={previousPage}
-                  >
-                    Previous
-                  </button>
-                  <button
-                    type="button"
-                    disabled={pageNumber >= numPages}
-                    onClick={nextPage}
-                  >
-                    Next
-                  </button>
-               </div>*/}
+              <a href={career.pdf} target="_blank" rel="noreferrer" id="email">
+              {`${career.name}.pdf`}
+</a>
+
+
                 </TabPanel>
 
                 <TabPanel>
