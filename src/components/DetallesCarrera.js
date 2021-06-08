@@ -1,7 +1,7 @@
 import React,{useState, useContext} from "react";
 import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
 import 'react-tabs/style/react-tabs.css';
-import { Document, Page } from 'react-pdf/dist/esm/entry.webpack';
+//import { Document, Page } from 'react-pdf/dist/esm/entry.webpack';
 
 
 import courseD1 from "../assets/images/course-d-1.jpg";
@@ -80,7 +80,7 @@ const DetallesCarrera = ({carrera}) => {
               </TabPanel>
             
               <TabPanel>
-                <Document
+               {/* <Document
                   file={career.pdf}
                   onLoadSuccess={onDocumentLoadSuccess}
                 >
@@ -104,7 +104,7 @@ const DetallesCarrera = ({carrera}) => {
                   >
                     Next
                   </button>
-               </div>
+               </div>*/}
                 </TabPanel>
 
                 <TabPanel>
