@@ -11,7 +11,7 @@ import CallToActionThree from "../components/CallToActionThree";
 
 import SubscribeOne from "../components/SubscribeOne";
 
-export const CareersContext = createContext([{ id: 'software',
+const careers = [{ id: 'software',
 name: 'Licenciatura en Desarrollo de Software y Negocios Digitales',
 cuatrimestres: 9,
 objetivo: 'Formar especialistas en planear, diseñar, desarrollar e implementar sistemas de información, bases de datos, inteligencia artificial y redes para dar solución tecnológica a problemas en las organizaciones.',
@@ -22,12 +22,14 @@ tag: 'Software',
 perfilEgreso: ['Dominar los elementos requeridos para la construcción de un programa de computadora', 'Solucionar problemas que impliquen la búsqueda u ordenación de elementos en una colección de datos.', 'Desarrollar sistemas de redes', 'Generar aplicaciones móviles', 'Gestionar equipos de trabajo en el sector de TI'],
 perfilIngreso: ['Conocimiento a nivel medio superior de ciencias básicas: Matemáticas y Física', 'Pensamiento lógico, analítico, crítico y reflexivo.', 'Marcado interés por el desarrollo de software empleando tecnologías emergentes en las áreas de lenguajes de programación, Bases de Datos e ingeniería del software.']
 
-}]);
+}]
+
+export const CareersContext = createContext(careers);
 
 const HomePage = () => (
 
 
-  <CareersContext.Provider>
+  <CareersContext.Provider value={careers}>
 
   <Layout pageTitle="UDN - Universidad Digital Neza">
     <Topbar />

@@ -1,7 +1,7 @@
 import React,{useState, useContext} from "react";
 import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
 import 'react-tabs/style/react-tabs.css';
-import { Document, Page } from 'react-pdf/dist/esm/entry.webpack';
+//import { Document, Page } from 'react-pdf/dist/esm/entry.webpack';
 
 
 import courseD1 from "../assets/images/course-d-1.jpg";
@@ -38,9 +38,11 @@ const DetallesCarrera = ({carrera}) => {
     changePage(1);
   }
 
+  console.log(career);
 
   return (
     <section className="course-details">
+    {career && (
       <div className="container">
         <div className="row">
           <div className="col-lg-8">
@@ -76,8 +78,10 @@ const DetallesCarrera = ({carrera}) => {
               <TabPanel>
                 <p>{career.objetivo}</p>
               </TabPanel>
-              
               <TabPanel>
+                <p>PDF AQUI!</p>
+              </TabPanel>
+              {/*<TabPanel>
                 <Document
                   file={career.pdf}
                   onLoadSuccess={onDocumentLoadSuccess}
@@ -103,7 +107,7 @@ const DetallesCarrera = ({carrera}) => {
                     Next
                   </button>
                </div>
-                </TabPanel>
+                </TabPanel> */}
 
                 <TabPanel>
                 <ul>
@@ -166,7 +170,7 @@ const DetallesCarrera = ({carrera}) => {
             
           </div>
         </div>
-      </div>
+      </div> )}
     </section>
   );
 };
