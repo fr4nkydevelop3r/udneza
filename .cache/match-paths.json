@@ -1,0 +1,6 @@
+[
+    {
+        "path": "/detalles-carrera/",
+        "matchPath": "/detalles-carrera/*"
+    }
+]
