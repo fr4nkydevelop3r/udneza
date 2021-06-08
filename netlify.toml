@@ -1,0 +1,5 @@
+[[redirects]]
+  from = "/detalles-carrera/*"
+  to = "/detalles-carrera"
+  status = 200
+  force = true
