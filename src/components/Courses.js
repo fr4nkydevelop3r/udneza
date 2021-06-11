@@ -1,13 +1,21 @@
-import React from "react";
+import React,{useContext} from "react";
 import { Link } from "gatsby";
 import course1 from "../assets/images/course-1-1.jpg";
 import Course from '../components/Course';
 
+import {CareersContext} from '../pages/index'
+
 const Courses = () => {
+
+  const careers = useContext(CareersContext);
+
+
   return (
     <section className="course-one course-page">
       <div className="container">
         <div className="row">
+
+        {careers.map((career) => (
           <div className="col-lg-4">
             <div className="course-one__single">
               <div className="course-one__image">
@@ -15,46 +23,38 @@ const Courses = () => {
                 <i className="far fa-heart"></i>
               </div>
               <div className="course-one__content">
-                <Link to="/detalles-carrera/software"  className="course-one__category">
-                  Desarrollo de software
+                <Link to={`/detalles-carrera/${career.id}`}  className="course-one__category">
+                  {career.tag}
                 </Link>
             
                 <h2 className="course-one__title">
-                  <Link to="/detalles-carrera/software">Licenciatura en Desarrollo de Software y Negocios Digitales</Link>
+                  <Link to={`/detalles-carrera/${career.id}`}>{career.name}</Link>
                 </h2>
                 <div className="course-one__meta">
-                  <Link to="/detalles-carrera/software" >
-                    <i className="far fa-clock"></i> 9 cuatrimestres
+                  <Link tto={`/detalles-carrera/${career.id}`}  >
+                    <i className="far fa-clock"></i> {career.cuatrimestres} cuatrimestres
                   </Link>
                 
-                  <Link to="/detalles-carrera/software" >$800/Mes</Link>
+                  <Link to={`/detalles-carrera/${career.id}`} >$800/Mes</Link>
                 </div>
-                <Link  to="/detalles-carrera/software" className="course-one__link">
+                <Link  to={`/detalles-carrera/${career.id}`}  className="course-one__link">
                   Ver detalles
                 </Link>
               </div>
             </div>
           </div>
 
+        ))}
 
+        
+ 
+
+          
 
 
         </div>
       
-     {/*} <div className="post-pagination">
-          <a href="#none">
-            <i className="fa fa-angle-double-left"></i>
-          </a>
-          <a className="active" href="#none">
-            1
-          </a>
-          <a href="#none">2</a>
-          <a href="#none">3</a>
-          <a href="#none">4</a>
-          <a href="#none">
-            <i className="fa fa-angle-double-right"></i>
-          </a>
-        </div> */}
+  
       </div>
     </section>
   );

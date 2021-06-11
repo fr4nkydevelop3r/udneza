@@ -1,4 +1,6 @@
 import React from "react";
+import Mailchimp from 'react-mailchimp-form'
+
 
 const Contact = () => {
   return (
@@ -6,39 +8,27 @@ const Contact = () => {
       <section className="contact-info-one">
         <div className="container">
           <div className="row">
-            <div className="col-lg-4">
-              <div className="contact-info-one__single">
-                <div className="contact-info-one__icon">
-                  <i className="kipso-icon-manager"></i>
-                </div>
-                <h2 className="contact-info-one__title">About Us </h2>
-                <p className="contact-info-one__text">
-                  Lorem ipsum is simply free text <br /> available in the market
-                  to use <br />
-                  deliver satisfaction.
-                </p>
-              </div>
-            </div>
-            <div className="col-lg-4">
+            
+            <div className="col-lg-6">
               <div className="contact-info-one__single">
                 <div className="contact-info-one__icon">
                   <i className="kipso-icon-placeholder"></i>
                 </div>
-                <h2 className="contact-info-one__title">Our Address</h2>
+                <h2 className="contact-info-one__title">Nuestra direcci&oacute;n</h2>
                 <p className="contact-info-one__text">
-                  855 Road Broklyn Street, <br />
-                  600 New York, United States of <br /> America
+                Av. Carmelo Pérez 279. Col. Ampliación Vicente Villada, <br />
+                Cd. Nezahualcóyotl, Edo. de México.  <br /> C.P. 57710 
                 </p>
               </div>
             </div>
-            <div className="col-lg-4">
+            <div className="col-lg-6">
               <div className="contact-info-one__single">
                 <div className="contact-info-one__icon">
                   <i className="kipso-icon-contact"></i>
                 </div>
-                <h2 className="contact-info-one__title">Contact Info</h2>
+                <h2 className="contact-info-one__title">Informaci&oacute;n de Contacto</h2>
                 <p className="contact-info-one__text">
-                  needhelp@kipso.com <br />
+                  info@udneza.com <br />
                   444 888 0000 <br /> &nbsp;
                 </p>
               </div>
@@ -50,10 +40,10 @@ const Contact = () => {
       <section className="contact-one">
         <div className="container">
           <h2 className="contact-one__title text-center">
-            Get in touch <br />
-            with us
+            Queremos saber <br />
+            de ti
           </h2>
-          <form
+         {/* <form
             action="#"
             className="contact-one__form contact-form-validated"
             noValidate="novalidate"
@@ -74,12 +64,51 @@ const Contact = () => {
                 </div>
               </div>
             </div>
-          </form>
+          </form> */}
+          <Mailchimp
+  action='https://gmail.us6.list-manage.com/subscribe/post?u=9f5dd2c791df9815d925b4d74&amp;id=aef6286cd2' 
+  
+  //Adding multiple fields:
+  fields={[
+    {
+      name: 'FNAME',
+      placeholder: 'Nombre',
+      type: 'text',
+      required: false
+    },
+    {
+      name: 'EMAIL',
+      placeholder: 'Email',
+      type: 'email',
+      required: true
+    },
+    {
+      name: 'PHONE',
+      placeholder: 'Teléfono',
+      type: 'phone',
+      required: false
+    },
+   
+  ]}
+  // Change predetermined language
+  messages = {
+    {
+      sending: "Enviando...",
+      success: "Gracias! Pronte te contactamos.",
+      error: "Ocurrio un error.",
+      empty: "Tienes que escribir un email.",
+      duplicate: "Ya tenemos tu correo. Pronto te contactamos.",
+      button: "Registrarme!"
+    }
+  }
+  // Add a personalized class
+  className='mailchimp-contact'
+  />
           <div className="result text-center"></div>
         </div>
       </section>
       <iframe
-        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4562.753041141002!2d-118.80123790098536!3d34.152323469614075!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80e82469c2162619%3A0xba03efb7998eef6d!2sCostco+Wholesale!5e0!3m2!1sbn!2sbd!4v1562518641290!5m2!1sbn!2sbd"
+        src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJjRCGLtfi0YURZKaZVEqdoUs&key=AIzaSyAI8POq1I1uQsp9cZRahD5w_OzRjhebCXo"
         className="google-map__contact"
         title="template google map"
         allowFullScreen=""

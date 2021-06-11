@@ -136,7 +136,7 @@ class NavOne extends Component {
 
                
                     <li>
-                      <Link to="/faq">Preguntas Frequentes</Link>
+                      <Link to="/register">Registro</Link>
                     </li>
                 
                {/* <li>

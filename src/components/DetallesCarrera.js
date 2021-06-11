@@ -128,7 +128,7 @@ const DetallesCarrera = ({carrera}) => {
                 <span className="course-details__meta-icon">
                   <i className="far fa-user-circle"></i>
                 </span>
-                Estudiantes: <span>Max 30</span>
+                Estudiantes: <span>Max {career.maxStudents}</span>
               </a>
               <a  className="course-details__meta-link">
                 <span className="course-details__meta-icon">

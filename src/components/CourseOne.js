@@ -1,19 +1,22 @@
-import React from "react";
+import React, {useContext} from "react";
 import Swiper from "react-id-swiper";
 import { Link } from "gatsby";
 import "swiper/css/swiper.css";
 import course1 from "../assets/images/course-1-1.jpg";
 
+import {CareersContext} from '../pages/index'
+
+
+
 
 const CourseOne = () => {
 
-  const infoCarreer = [{
-    name: 'Desarrollo de Software'
-  }]
+  const careers = useContext(CareersContext);
+  console.log(careers);
 
   const params = {
     slidesPerView: 3,
-    loop: true,
+    loop: false,
     speed: 1000,
     spaceBetween: 30,
     autoplay: {
@@ -59,6 +62,7 @@ const CourseOne = () => {
         <div className="container">
           <div className="course-one__carousel">
             <Swiper {...params}>
+            {careers.map(career => (
               <div className="item">
                 <div className="course-one__single color-1">
                   <div className="course-one__image">
@@ -67,28 +71,28 @@ const CourseOne = () => {
                   </div>
                   <div className="course-one__content">
  
-                    <Link to="/detalles-carrera/software"  className="course-one__category">Desarrollo de Software</Link>
+                    <Link to={`/detalles-carrera/${career.id}`}  className="course-one__category">{career.tag}</Link>
 
               
                     <h2 className="course-one__title">
-                      <Link to="/detalles-carrera/software" >Licenciatura en Desarrollo de Software y Negocios Digitales</Link>
+                      <Link to={`/detalles-carrera/${career.id}`} > {career.name} </Link>
 
                     </h2>
             
                     <div className="course-one__meta">
                     
-                      <Link to="/detalles-carrera/software"> 
-                        <i className="far fa-clock"></i> 9 cuatrimestres
+                      <Link to={`/detalles-carrera/${career.id}`}> 
+                        <i className="far fa-clock"></i> {career.cuatrimestres} cuatrimestres
                       </Link>
                   
                       
-                      <Link to="/detalles-carrera/software"> 
+                      <Link to={`/detalles-carrera/${career.id}`}> 
                       $800/Mes
                       </Link>
                     </div>
                    
                     <Link 
-                      to="/detalles-carrera/software"   
+                      to={`/detalles-carrera/${career.id}`} 
                       className="course-one__link"
                     > 
                      Ver informaci&oacute;n
@@ -98,6 +102,7 @@ const CourseOne = () => {
                   </div>
                 </div>
               </div>
+            ))}
 
 
             </Swiper>
@@ -108,3 +113,4 @@ const CourseOne = () => {
   );
 };
 export default CourseOne;
+  

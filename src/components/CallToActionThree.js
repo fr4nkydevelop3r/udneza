@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import { Link } from "gatsby";
 import cta1 from "../assets/images/cta-1.jpg";
 class CallToActionThree extends Component {
   render() {
@@ -38,9 +39,10 @@ class CallToActionThree extends Component {
                     <p className="cta-three__single-text">Profesores expertos</p>
                   </div>
                 </div>
-                <a href="#none" className="thm-btn">
-                  Learn More
-                </a>
+            
+                <Link  to="/register"  className="thm-btn">
+                 Regisrarse
+                </Link>
               </div>
             </div>
           </div>
