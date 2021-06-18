@@ -220,7 +220,7 @@
 
   .header-navigation .container {
     display: block;
-    padding-right: 0px;
+    padding-right: 16px;
     padding-left: 0px;
     position: relative;
   }
@@ -233,11 +233,11 @@
     transform: translateY(0);
     float: none;
     padding-right: 145px;
+    background-color: #fff;
   }
 
   .header-navigation .container .logo-box .navbar-brand {
     float: left;
-    padding: 20px 0;
   }
 
   .header-navigation .container .logo-box .navbar-toggler {
@@ -475,6 +475,10 @@
   }
 }
 @media (max-width: 991px) {
+  .stricked-menu.stricky-fixed{
+    transform: translateY(55%);
+  }
+
   .banner-one__title {
     font-size: 100px;
     line-height: 1em;
@@ -609,6 +613,10 @@
     margin-bottom: 40px;
   }
 
+  .stricked-menu.stricky-fixed{
+    transform: translateY(55%);
+  }
+
   .cta-five__title {
     margin-bottom: 10px;
   }
@@ -676,6 +684,10 @@
   .banner-wrapper .banner-carousel-btn [class*="banner-carousel-btn__"] {
     position: static;
     margin: 0 20px;
+  }
+
+  .stricked-menu.stricky-fixed{
+    transform: translateY(55%);
   }
 
   .banner-wrapper .banner-carousel-btn {
@@ -756,6 +768,10 @@
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
+  }
+
+  .stricked-menu.stricky-fixed{
+    transform: translateY(55%);
   }
 
   .topbar-one .container {

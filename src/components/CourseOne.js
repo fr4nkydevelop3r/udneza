@@ -62,8 +62,8 @@ const CourseOne = () => {
         <div className="container">
           <div className="course-one__carousel">
             <Swiper {...params}>
-            {careers.map(career => (
-              <div className="item">
+            {careers.map((career, index) => (
+              <div className="item" key={index}>
                 <div className="course-one__single color-1">
                   <div className="course-one__image">
                     <img src={course1} alt="" />

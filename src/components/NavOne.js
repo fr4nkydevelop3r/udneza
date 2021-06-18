@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { Link } from "gatsby";
-import logo from "../assets/images/logo-dark.png";
+import logo from "../assets/images/udneza.png";
 class NavOne extends Component {
   constructor() {
     super();
@@ -78,7 +78,7 @@ class NavOne extends Component {
                 <img
                   src={logo}
                   className="main-logo"
-                  width="128"
+                  width="100"
                   alt="Awesome alter text"
                 />
               </Link>
