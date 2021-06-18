@@ -2,7 +2,7 @@ import React, {useContext} from "react";
 import Swiper from "react-id-swiper";
 import { Link } from "gatsby";
 import "swiper/css/swiper.css";
-import course1 from "../assets/images/course-1-1.jpg";
+import Licenciatura1 from "../assets/images/Licenciatura1.png";
 
 import {CareersContext} from '../pages/index'
 
@@ -66,9 +66,8 @@ const CourseOne = () => {
               <div className="item" key={index}>
                 <div className="course-one__single color-1">
                   <div className="course-one__image">
-                    <img src={course1} alt="" />
-                    <i className="far fa-heart"></i>
-                  </div>
+                    <img src={career.image} alt="" />
+                    </div>
                   <div className="course-one__content">
  
                     <Link to={`/detalles-carrera/${career.id}`}  className="course-one__category">{career.tag}</Link>

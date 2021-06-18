@@ -62,8 +62,7 @@ const DetallesCarrera = ({carrera}) => {
                 </div>
               </div>
               <div className="course-one__image">
-                <img src={courseD1} alt="" />
-                <i className="far fa-heart"></i>
+                <img src={career.image}  alt="" />
               </div>        
               
               <Tabs>

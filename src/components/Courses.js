@@ -19,7 +19,7 @@ const Courses = () => {
           <div className="col-lg-4">
             <div className="course-one__single">
               <div className="course-one__image">
-                <img src={course1} alt="" />
+                <img src={career.image} alt="" />
                 <i className="far fa-heart"></i>
               </div>
               <div className="course-one__content">

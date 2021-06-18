@@ -21,6 +21,7 @@ const careers = [
   price: '$800/Mes',
   pdf: 'https://familyhelpercf8592153a9d4564a85a2a42f623c609204251-dev.s3.amazonaws.com/public/mapa_curricular_carrera_software.pdf',
   tag: 'Software',
+  image: "https://libraryappamplified089c9b46b2074a0482e5265842b1143851-dev.s3.amazonaws.com/public/Licenciatura7.png",
   perfilIngreso: [
     'Interés por los servicios tecnológicos que puede ofrecer al mundo laboral', 
     'Capacidad de retención, análisis y síntesis de información digital', 
@@ -56,6 +57,7 @@ const careers = [
   price: '$800/Mes',
   pdf: 'https://familyhelpercf8592153a9d4564a85a2a42f623c609204251-dev.s3.amazonaws.com/public/mapa_curricular_carrera_software.pdf',
   tag: 'Educación',
+  image: "https://libraryappamplified089c9b46b2074a0482e5265842b1143851-dev.s3.amazonaws.com/public/Licenciatura1.png",
   perfilIngreso: [
     'Capacidad de retención, análisis y síntesis de información de la profesión', 
     'Afinidad por eventos y procesos educativos y necesidades de solución y generar nuevas oportunidades', 
@@ -88,6 +90,7 @@ const careers = [
   price: '$800/Mes',
   pdf: 'https://familyhelpercf8592153a9d4564a85a2a42f623c609204251-dev.s3.amazonaws.com/public/mapa_curricular_carrera_software.pdf',
   tag: 'negocios',
+  image: "https://libraryappamplified089c9b46b2074a0482e5265842b1143851-dev.s3.amazonaws.com/public/Licenciatura5.png",
   perfilIngreso: [
     'Percepción para detectar oportunidades comerciales y de negocios', 
     'Capacidad de observar los comportamientos de los mercados globales', 
@@ -132,6 +135,7 @@ const careers = [
   price: '$800/Mes',
   pdf: 'https://familyhelpercf8592153a9d4564a85a2a42f623c609204251-dev.s3.amazonaws.com/public/mapa_curricular_carrera_software.pdf',
   tag: 'ambiente',
+  image: "https://libraryappamplified089c9b46b2074a0482e5265842b1143851-dev.s3.amazonaws.com/public/Licenciatura3.png",
   perfilIngreso: [
     'Interés por los procesos y fenómenos ambientales y sociales', 
     'Capacidad de retención, análisis y síntesis de información ambiental', 
@@ -171,7 +175,7 @@ const HomePage = () => (
   <CareersContext.Provider value={careers}>
 
   <Layout pageTitle="UDN - Universidad Digital Neza">
-    <Topbar />
+  <Topbar /> 
     <NavOne />
     <SliderOne />
     <AboutTwo />
