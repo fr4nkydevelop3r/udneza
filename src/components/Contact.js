@@ -28,8 +28,8 @@ const Contact = () => {
                 </div>
                 <h2 className="contact-info-one__title">Informaci&oacute;n de Contacto</h2>
                 <p className="contact-info-one__text">
-                  info@udneza.com <br />
-                  444 888 0000 <br /> &nbsp;
+                  info@universidaddigitalneza.com <br />
+                 
                 </p>
               </div>
             </div>

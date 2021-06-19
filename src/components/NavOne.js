@@ -83,16 +83,16 @@ class NavOne extends Component {
                 />
               </Link>
               <div className="header__social">
-                <a href="#none">
+                <a href="https://twitter.com/udneza">
                   <i className="fab fa-twitter"></i>
                 </a>
-                <a href="#none">
+                <a href="https://www.facebook.com/Universidad-Digital-Neza-105121505153040" target="_blank">
                   <i className="fab fa-facebook-square"></i>
                 </a>
            
-                <a href="#none">
+                {/*<a href="#none">
                   <i className="fab fa-instagram"></i>
-                </a>
+                </a>*/}
               </div>
               <button className="menu-toggler">
                 <span className="kipso-icon-menu"></span>
