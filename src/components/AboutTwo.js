@@ -1,8 +1,5 @@
 import React, { Component } from "react";
 import { Link } from "gatsby";
-import CountUp from "react-countup";
-import VisibilitySensor from "react-visibility-sensor";
-import about1 from "../assets/images/about-1-1.jpg";
 import onlineGraduation from "../assets/images/online-graduation.jpeg"
 export default class AboutTwo extends Component {
   constructor() {
