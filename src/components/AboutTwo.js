@@ -65,7 +65,7 @@ export default class AboutTwo extends Component {
               <div className="about-two__image">
                 <span className="about-two__image-dots"></span>
                 <img src={onlineGraduation} alt="online-graduation" className="image_graduation_online"/>
-                <div className="about-two__count">
+               {/*} <div className="about-two__count">
                   <div className="about-two__count-text">
                     Nuestros alumnos
                     <span className="counter">
@@ -78,7 +78,7 @@ export default class AboutTwo extends Component {
                       </VisibilitySensor>
                     </span>
                   </div>
-                </div>
+                </div>*/}
               </div>
             </div>
           </div>

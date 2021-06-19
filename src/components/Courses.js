@@ -20,7 +20,6 @@ const Courses = () => {
             <div className="course-one__single">
               <div className="course-one__image">
                 <img src={career.image} alt="" />
-                <i className="far fa-heart"></i>
               </div>
               <div className="course-one__content">
                 <Link to={`/detalles-carrera/${career.id}`}  className="course-one__category">

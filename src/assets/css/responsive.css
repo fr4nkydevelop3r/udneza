@@ -220,7 +220,7 @@
 
   .header-navigation .container {
     display: block;
-    padding-right: 16px;
+    padding-right: 0;
     padding-left: 0px;
     position: relative;
   }
@@ -476,7 +476,7 @@
 }
 @media (max-width: 991px) {
   .stricked-menu.stricky-fixed{
-    transform: translateY(55%);
+    transform: translateY(0);
   }
 
   .banner-one__title {
@@ -614,7 +614,7 @@
   }
 
   .stricked-menu.stricky-fixed{
-    transform: translateY(55%);
+    transform: translateY(0);
   }
 
   .cta-five__title {
@@ -687,7 +687,7 @@
   }
 
   .stricked-menu.stricky-fixed{
-    transform: translateY(55%);
+    transform: translateY(0);
   }
 
   .banner-wrapper .banner-carousel-btn {
@@ -771,7 +771,7 @@
   }
 
   .stricked-menu.stricky-fixed{
-    transform: translateY(55%);
+    transform: translateY(0);
   }
 
   .topbar-one .container {

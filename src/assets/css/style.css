@@ -2070,6 +2070,9 @@ a:visited {
 }
 .cta-three__image {
   float: right;
+  width: 932px;
+  height: 764px;
+
 }
 .cta-three__content {
   padding: 105px 0;

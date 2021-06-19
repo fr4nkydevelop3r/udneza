@@ -175,7 +175,6 @@ const HomePage = () => (
   <CareersContext.Provider value={careers}>
 
   <Layout pageTitle="UDN - Universidad Digital Neza">
-  <Topbar /> 
     <NavOne />
     <SliderOne />
     <AboutTwo />

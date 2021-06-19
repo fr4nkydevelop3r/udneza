@@ -18,9 +18,7 @@ const CountdownKipso = () => {
                 a la demanda laboral actual. Te acompa&ntilde;aremos en tu proceso de aprendizaje desde el d&iacute;a uno hasta tu titulaci&oacute;n.
                 
                               </p>
-              <div className="countdown-one__list list-unstyled">
-                <Countdown date={Date.now() + 2000000000} />
-              </div>
+            
             </div>
           </div>
           <div className="col-lg-6">

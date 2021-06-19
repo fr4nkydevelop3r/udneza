@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { Link } from "gatsby";
-import cta1 from "../assets/images/cta-1.jpg";
+import computer from "../assets/images/computer.jpeg"
 class CallToActionThree extends Component {
   render() {
     return (
@@ -8,7 +8,7 @@ class CallToActionThree extends Component {
         <div className="container">
           <div className="row">
             <div className="col-lg-6 clearfix">
-              <img src={cta1} className="cta-three__image" alt="" />
+              <img src={computer} className="cta-three__image" alt="" />
             </div>
             <div className="col-lg-6">
               <div className="cta-three__content">
