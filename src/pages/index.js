@@ -19,7 +19,7 @@ const careers = [
   objetivo: 'Formar profesionales que respondan al avance acelerado de la sociedad, al desarrollar software con innovación tecnológica para mejorar la calidad de vida de la población, con la capacidad de analizar, diseñar e implementar sistemas inteligentes y proyectos de innovación de los negocios digitales, con la integración de las tecnologías para generar valor.',
   maxStudents : 20,
   price: '$800/Mes',
-  pdf: 'https://familyhelpercf8592153a9d4564a85a2a42f623c609204251-dev.s3.amazonaws.com/public/mapa_curricular_carrera_software.pdf',
+  pdf: 'https://fantasticanswer5129fd70bc3b4da2a3c92f7b578283a781345-dev.s3.amazonaws.com/public/UDNeza/Malla+Curricular+de+Desarrollo+de+Software+y+Negocios+Digitales.pdf',
   tag: 'Software',
   image: "https://libraryappamplified089c9b46b2074a0482e5265842b1143851-dev.s3.amazonaws.com/public/Licenciatura7.png",
   perfilIngreso: [
@@ -55,7 +55,7 @@ const careers = [
   objetivo: 'Formar  profesionales que generen propuestas y estrategias de intervención innovadoras para las organizaciones educativas, al claustro docente, modelos educativos, planes y programas de estudio, actividades de enseñanza-aprendizaje, recursos y materiales didácticos en diferentes niveles educativos, integrando disposiciones jurídicas vigentes a la realidad de las organizaciones educativas.',
   maxStudents : 20,
   price: '$800/Mes',
-  pdf: 'https://familyhelpercf8592153a9d4564a85a2a42f623c609204251-dev.s3.amazonaws.com/public/mapa_curricular_carrera_software.pdf',
+  pdf: 'https://fantasticanswer5129fd70bc3b4da2a3c92f7b578283a781345-dev.s3.amazonaws.com/public/UDNeza/Malla+Curricular+de+Licenciatura+en+Educacion+UDN.pdf',
   tag: 'Educación',
   image: "https://libraryappamplified089c9b46b2074a0482e5265842b1143851-dev.s3.amazonaws.com/public/Licenciatura1.png",
   perfilIngreso: [
@@ -88,7 +88,7 @@ const careers = [
   objetivo: 'Formar profesionales que transfieran sus conocimientos en el comercio internacional y en la generación de negocios globales, así como en la gestión y mejoramiento de organizaciones comerciales, a nivel nacional e internacional, aportando la innovación en los elementos comerciales, normativos, económicos, de inversión y financieros que permitan enfrentar los problemas y desafíos globales emergentes e inherentes al intercambio de mercaderías y la generación de negocios internacionales.',
   maxStudents : 20,
   price: '$800/Mes',
-  pdf: 'https://familyhelpercf8592153a9d4564a85a2a42f623c609204251-dev.s3.amazonaws.com/public/mapa_curricular_carrera_software.pdf',
+  pdf: 'https://fantasticanswer5129fd70bc3b4da2a3c92f7b578283a781345-dev.s3.amazonaws.com/public/UDNeza/Malla+Curricular+de+Licenciatura+en+Comercio+y+Negocios+Internacionales+UDN.pdf',
   tag: 'negocios',
   image: "https://libraryappamplified089c9b46b2074a0482e5265842b1143851-dev.s3.amazonaws.com/public/Licenciatura5.png",
   perfilIngreso: [
@@ -133,7 +133,7 @@ const careers = [
   objetivo: 'Formar profesionales que apliquen sus competencias en la gestión y el desarrollo ambiental, para diseñar y ejecutar acciones y proyectos de desarrollo compatibles con el ambiente así como planes de prevención de daños ambientales, con el fin de mejorar la calidad de vida de la población; incluye la generación de conocimientos de las acciones sociales, políticas y económicas que garantizan un desarrollo sostenible, dentro del marco jurídico aplicables en la gestión apropiada de los recursos.',
   maxStudents : 20,
   price: '$800/Mes',
-  pdf: 'https://familyhelpercf8592153a9d4564a85a2a42f623c609204251-dev.s3.amazonaws.com/public/mapa_curricular_carrera_software.pdf',
+  pdf: 'https://fantasticanswer5129fd70bc3b4da2a3c92f7b578283a781345-dev.s3.amazonaws.com/public/UDNeza/Malla+Curricular+de+Licenciatura+en+Gestio%CC%81n+y+Desarrollo+Ambiental+UDN.pdf',
   tag: 'ambiente',
   image: "https://libraryappamplified089c9b46b2074a0482e5265842b1143851-dev.s3.amazonaws.com/public/Licenciatura3.png",
   perfilIngreso: [

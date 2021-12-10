@@ -7,6 +7,7 @@ exports.components = {
   "component---src-pages-become-teacher-js": () => import("./../../../src/pages/become-teacher.js" /* webpackChunkName: "component---src-pages-become-teacher-js" */),
   "component---src-pages-carreras-js": () => import("./../../../src/pages/carreras.js" /* webpackChunkName: "component---src-pages-carreras-js" */),
   "component---src-pages-contact-js": () => import("./../../../src/pages/contact.js" /* webpackChunkName: "component---src-pages-contact-js" */),
+  "component---src-pages-cursos-js": () => import("./../../../src/pages/cursos.js" /* webpackChunkName: "component---src-pages-cursos-js" */),
   "component---src-pages-detalles-carrera-js": () => import("./../../../src/pages/detalles-carrera.js" /* webpackChunkName: "component---src-pages-detalles-carrera-js" */),
   "component---src-pages-faq-js": () => import("./../../../src/pages/faq.js" /* webpackChunkName: "component---src-pages-faq-js" */),
   "component---src-pages-gallery-js": () => import("./../../../src/pages/gallery.js" /* webpackChunkName: "component---src-pages-gallery-js" */),

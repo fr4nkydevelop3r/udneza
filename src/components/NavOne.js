@@ -134,6 +134,12 @@ class NavOne extends Component {
               
                 </li>
 
+                <li>
+                <Link to="/cursos">Cursos</Link>
+
+              
+                </li>
+
                
                     <li>
                       <Link to="/register">Registro</Link>

@@ -6493,3 +6493,8 @@ html {
 	font-size: 53px;
 	cursor: pointer;
 }
+
+#cursos-table th,td {
+  padding: 0 25px;
+  border: 1px solid #0C5B70;
+}
