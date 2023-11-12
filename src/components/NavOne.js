@@ -5,7 +5,7 @@ class NavOne extends Component {
   constructor() {
     super();
     this.state = {
-      sticky: false
+      sticky: false,
     };
   }
   componentDidMount() {
@@ -25,11 +25,11 @@ class NavOne extends Component {
   handleScroll = () => {
     if (window.scrollY > 70) {
       this.setState({
-        sticky: true
+        sticky: true,
       });
     } else if (window.scrollY < 70) {
       this.setState({
-        sticky: false
+        sticky: false,
       });
     }
   };
@@ -86,10 +86,13 @@ class NavOne extends Component {
                 <a href="https://twitter.com/udneza">
                   <i className="fab fa-twitter"></i>
                 </a>
-                <a href="https://www.facebook.com/Universidad-Digital-Neza-105121505153040" target="_blank">
+                <a
+                  href="https://www.facebook.com/Universidad-Digital-Neza-105121505153040"
+                  target="_blank"
+                >
                   <i className="fab fa-facebook-square"></i>
                 </a>
-           
+
                 {/*<a href="#none">
                   <i className="fab fa-instagram"></i>
                 </a>*/}
@@ -102,7 +105,7 @@ class NavOne extends Component {
               <ul className=" navigation-box">
                 <li className="current">
                   <Link to="/">Inicio</Link>
-                 {/*} <ul className="sub-menu">
+                  {/*} <ul className="sub-menu">
                     <li>
                       <Link to="/">Home 01</Link>
                     </li>
@@ -129,23 +132,14 @@ class NavOne extends Component {
                   </ul>*/}
                 </li>
                 <li>
-                <Link to="/carreras">Carreras</Link>
-
-              
+                  <Link to="/carreras">Carreras</Link>
                 </li>
 
                 <li>
-                <Link to="/cursos">Cursos</Link>
-
-              
+                  <Link to="/register">Registro</Link>
                 </li>
 
-               
-                    <li>
-                      <Link to="/register">Registro</Link>
-                    </li>
-                
-               {/* <li>
+                {/* <li>
                   <a href="#none">Pages</a>
                   <ul className="sub-menu">
                     <li>
@@ -163,7 +157,7 @@ class NavOne extends Component {
                   </ul>
                 </li> */}
 
-           {/*     <li>
+                {/*     <li>
                   <Link to="/teachers">Teachers</Link>
                   <ul className="sub-menu">
                     <li>
@@ -177,13 +171,13 @@ class NavOne extends Component {
                     </li>
                   </ul>
                 </li>*/}
-              
+
                 <li>
                   <Link to="/contact">Contacto</Link>
                 </li>
               </ul>
             </div>
-           {/*} <div className="right-side-box">
+            {/*} <div className="right-side-box">
               <a
                 className="header__search-btn search-popup__toggler search-toggle"
                 href="#none"
