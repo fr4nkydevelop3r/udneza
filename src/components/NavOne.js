@@ -83,13 +83,7 @@ class NavOne extends Component {
                 />
               </Link>
               <div className="header__social">
-                <a href="https://twitter.com/udneza">
-                  <i className="fab fa-twitter"></i>
-                </a>
-                <a
-                  href="https://www.facebook.com/Universidad-Digital-Neza-105121505153040"
-                  target="_blank"
-                >
+                <a href="https://www.facebook.com/CUDNeza" target="_blank">
                   <i className="fab fa-facebook-square"></i>
                 </a>
 

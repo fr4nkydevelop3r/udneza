@@ -1,6 +1,5 @@
 import React from "react";
 
-
 const Footer = () => {
   function scrollTop() {
     window.scrollTo(0, 0);
@@ -8,11 +7,11 @@ const Footer = () => {
   return (
     <div>
       <footer className="site-footer">
-       
         <div className="site-footer__bottom">
           <div className="container">
             <p className="site-footer__copy">
-              &copy; Copyright 2020  Universidad Digital Nezahualc&oacute;yotl
+              &copy; Copyright 2023 Centro Universitario Digital
+              Nezahualc&oacute;yotl
             </p>
             <div className="site-footer__social">
               <div
@@ -25,13 +24,10 @@ const Footer = () => {
                 <i className="kipso-icon-top-arrow"></i>
               </div>
 
-              <a href="https://twitter.com/udneza">
-                <i className="fab fa-twitter"></i>
-              </a>
-              <a href="https://www.facebook.com/Universidad-Digital-Neza-105121505153040" target="_blank">
+              <a href="https://www.facebook.com/CUDNeza" target="_blank">
                 <i className="fab fa-facebook-square"></i>
               </a>
-            
+
               {/*<a href="#none">
                 <i className="fab fa-instagram"></i>
               </a>*/}
