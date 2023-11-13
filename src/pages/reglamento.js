@@ -7,7 +7,7 @@ import ReglamentoAcad from "../components/Reglamento";
 
 const Reglamento = () => {
   return (
-    <Layout pageTitle="UDN | Reglamento">
+    <Layout pageTitle="CUDN | Reglamento">
       <NavOne />
       <PageHeader title="Reglamento" />
       <ReglamentoAcad />

@@ -135,7 +135,7 @@ export const CareersContext = createContext(careers);
 
 const HomePage = () => (
   <CareersContext.Provider value={careers}>
-    <Layout pageTitle="UDN - Universidad Digital Neza">
+    <Layout pageTitle="CUDN - Centro Universitario Digital Neza">
       <NavOne />
       <SliderOne />
       <AboutTwo />

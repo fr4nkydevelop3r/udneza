@@ -7,7 +7,7 @@ import CursosCortos from "../components/CursosCortos";
 
 const CoursesPage = () => {
   return (
-    <Layout pageTitle="UDN | Cursos">
+    <Layout pageTitle="CUDN | Cursos">
       <NavOne />
       <PageHeader title="Cursos" />
       <CursosCortos />
