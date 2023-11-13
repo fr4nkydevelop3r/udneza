@@ -21,6 +21,7 @@ exports.components = {
   "component---src-pages-news-js": (preferDefault(require("/Users/fandrade/Documents/udneza/src/pages/news.js"))),
   "component---src-pages-pricing-js": (preferDefault(require("/Users/fandrade/Documents/udneza/src/pages/pricing.js"))),
   "component---src-pages-register-js": (preferDefault(require("/Users/fandrade/Documents/udneza/src/pages/register.js"))),
+  "component---src-pages-reglamento-js": (preferDefault(require("/Users/fandrade/Documents/udneza/src/pages/reglamento.js"))),
   "component---src-pages-teacher-details-js": (preferDefault(require("/Users/fandrade/Documents/udneza/src/pages/teacher-details.js"))),
   "component---src-pages-teachers-js": (preferDefault(require("/Users/fandrade/Documents/udneza/src/pages/teachers.js")))
 }

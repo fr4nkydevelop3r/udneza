@@ -128,6 +128,9 @@ class NavOne extends Component {
                 <li>
                   <Link to="/carreras">Carreras</Link>
                 </li>
+                <li>
+                  <Link to="/reglamento">Reglamento</Link>
+                </li>
 
                 <li>
                   <Link to="/register">Registro</Link>

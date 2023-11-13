@@ -18,6 +18,7 @@ exports.components = {
   "component---src-pages-news-js": () => import("./../../../src/pages/news.js" /* webpackChunkName: "component---src-pages-news-js" */),
   "component---src-pages-pricing-js": () => import("./../../../src/pages/pricing.js" /* webpackChunkName: "component---src-pages-pricing-js" */),
   "component---src-pages-register-js": () => import("./../../../src/pages/register.js" /* webpackChunkName: "component---src-pages-register-js" */),
+  "component---src-pages-reglamento-js": () => import("./../../../src/pages/reglamento.js" /* webpackChunkName: "component---src-pages-reglamento-js" */),
   "component---src-pages-teacher-details-js": () => import("./../../../src/pages/teacher-details.js" /* webpackChunkName: "component---src-pages-teacher-details-js" */),
   "component---src-pages-teachers-js": () => import("./../../../src/pages/teachers.js" /* webpackChunkName: "component---src-pages-teachers-js" */)
 }

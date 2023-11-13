@@ -3,17 +3,17 @@ import Layout from "../components/Layout";
 import NavOne from "../components/NavOne";
 import PageHeader from "../components/PageHeader";
 import Footer from "../components/Footer";
-import CursosCortos from "../components/CursosCortos";
+import ReglamentoAcad from "../components/Reglamento";
 
-const CoursesPage = () => {
+const Reglamento = () => {
   return (
-    <Layout pageTitle="UDN | Cursos">
+    <Layout pageTitle="UDN | Reglamento">
       <NavOne />
-      <PageHeader title="Cursos" />
-      <CursosCortos />
+      <PageHeader title="Reglamento" />
+      <ReglamentoAcad />
       <Footer />
     </Layout>
   );
 };
 
-export default CoursesPage;
+export default Reglamento;
