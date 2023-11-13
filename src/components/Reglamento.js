@@ -10,7 +10,7 @@ const Reglamento = () => {
         <div className="row">
           <div className="col-lg-9 col-md-6 col-sm-12">
             <a
-              href="https://el-tepayac-taqueria.s3.amazonaws.com/Reglamento+CUDN+2023.pdf"
+              href="https://cudn.s3.us-east-2.amazonaws.com/Reglamento+CUDN+2023.pdf"
               target="_blank"
               rel="noreferrer"
               id="email"

@@ -20,8 +20,7 @@ const careers = [
       "Formar profesionales que generen propuestas y estrategias innovadoras de intervención para las organizaciones educativas, al claustro docente, modelos educativos, planes y programas de estudio, actividades de enseñanza-aprendizaje, recursos y materiales didácticos y ejecuten las mejores propuestas en diferentes niveles educativos, integrando políticas y disposiciones jurídicas.",
     maxStudents: 20,
     price: "$800/Mes",
-    pdf:
-      "https://el-tepayac-taqueria.s3.amazonaws.com/Lic.+en+Educaci%C3%B3n.pdf",
+    pdf: "https://cudn.s3.us-east-2.amazonaws.com/Lic.Educ.pdf",
     tag: "Educación",
     image:
       "https://libraryappamplified089c9b46b2074a0482e5265842b1143851-dev.s3.amazonaws.com/public/Licenciatura1.png",
@@ -59,8 +58,7 @@ const careers = [
       "Formar profesionales que transfieran sus conocimientos en el comercio internacional y en generar negocios globales y en la gestión y mejoramiento de organizaciones comerciales, a nivel internacional, aportando la innovación en los elementos comerciales, normativos, económicos, de inversión y financieros que permitan enfrentar los problemas y desafíos globales emergentes e inherentes al intercambio de mercaderías y los negocios internacionales, aprovechando las nuevas tecnologías, la inteligencia artificial, el factor humano y la competitividad.",
     maxStudents: 20,
     price: "$800/Mes",
-    pdf:
-      "https://el-tepayac-taqueria.s3.amazonaws.com/Licenciatura+en+Comercio+y+Negocios+Internacionales.pdf",
+    pdf: "https://cudn.s3.us-east-2.amazonaws.com/Licenciatura+en+Com.pdf",
     tag: "negocios",
     image:
       "https://libraryappamplified089c9b46b2074a0482e5265842b1143851-dev.s3.amazonaws.com/public/Licenciatura5.png",
@@ -102,8 +100,7 @@ const careers = [
       "Formar profesionales que apliquen sus competencias en la gestión y el desarrollo ambiental, para diseñar y ejecutar acciones y proyectos de desarrollo compatibles con el ambiente así como planes de prevención de daños ambientales, con el fin de mejorar la calidad de vida de la población, aunado a generar conocimientos de las acciones sociales, políticas y económicas que garantizan un desarrollo sostenible, dentro del marco jurídico aplicables y la solución innovadora de conflictos ambientales",
     maxStudents: 20,
     price: "$800/Mes",
-    pdf:
-      "https://el-tepayac-taqueria.s3.amazonaws.com/Lic.+en+Gesti%C3%B3n+y+Desarrollo+Ambiental.pdf",
+    pdf: "https://cudn.s3.us-east-2.amazonaws.com/Lic.+en+Gesti.pdf",
     tag: "ambiente",
     image:
       "https://libraryappamplified089c9b46b2074a0482e5265842b1143851-dev.s3.amazonaws.com/public/Licenciatura3.png",
